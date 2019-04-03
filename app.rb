@@ -9,7 +9,7 @@ class App < Sinatra::Base
     erb :reversed
   end
 
-  get '/friends' do
+  get '/friends' do #renders friends.erb page
     # Write your code here!
 
   end
