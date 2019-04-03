@@ -1,7 +1,7 @@
 require_relative 'config/environment'
 
 class App < Sinatra::Base
-  get '/reverse' do
+  get '/reverse' do #renders the reverse.erb page
     erb :reverse
   end
 
