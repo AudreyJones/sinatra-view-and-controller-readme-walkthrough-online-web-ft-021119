@@ -7,6 +7,7 @@ class App < Sinatra::Base
 
   post '/reverse' do #receives that params hash from the form (but does nothing with it) and renders the reversed.erb page
     puts params
+    original_string = params["string"]
     erb :reversed
   end
 
